@@ -1,0 +1,7 @@
+<h1> List of Favorite Colors </h1>
+<input type="text" [(ngModel)]="newColor">
+<button (click)="addColor(newColor)"> Add Color </button>
+
+<ul>
+  <li *ngFor="let color of ColorList" > {{ color }} </li>
+</ul>
