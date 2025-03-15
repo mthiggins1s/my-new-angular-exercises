@@ -6,11 +6,12 @@ import { TaskListComponent } from './task-list/task-list.component';
 import { FavoriteColorsComponent } from './favorite-colors/favorite-colors.component';
 import { TemperatureConverterComponent } from './temp-converter/temp-converter.component';
 import { CalculatorComponent } from './simple-calc/simple-calc.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ClickCounterComponent, TaskListComponent, FavoriteColorsComponent, TemperatureConverterComponent, CalculatorComponent, FormsModule],
+  imports: [RouterOutlet, ClickCounterComponent, TaskListComponent, FavoriteColorsComponent, TemperatureConverterComponent, CalculatorComponent, FormsModule, ShoppingListComponent],
   standalone: true,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
