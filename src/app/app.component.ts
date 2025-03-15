@@ -9,7 +9,7 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ClickCounterComponent, TaskListComponent, FavoriteColorsComponent],
+  imports: [RouterOutlet, ClickCounterComponent, TaskListComponent, FavoriteColorsComponent, TemperatureConverterComponent],
   standalone: true,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
